@@ -2,3 +2,16 @@ body{
 	background: pink;
 	font-family: monospace;
 }
+.contenedor{
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+
+
+}
+.elemento{
+	height: 200px;
+	flex-basis: 400px;
+	background: darkred;
+	flex-grow: 1;
+}
